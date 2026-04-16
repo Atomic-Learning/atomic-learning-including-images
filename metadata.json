@@ -8,7 +8,7 @@
     "tags": [
         "atomic-learning"
     ],
-    "duration": 5,
+    "duration": 4,
     "prerequisites": [
         "atomic-learning-content-repositories",
         "atomic-learning-content-file",
