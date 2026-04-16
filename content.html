@@ -1,1 +1,33 @@
+<p>To include images in your Atomic Learning content, you can use the HTML <code class="language-html">&lt;img&gt;</code> tag. Image files should typically be placed in the <code>resources</code> directory in the root of the repository. This means the value passed to the <code>src</code> attribute of the <code class="language-html">&lt;img&gt;</code> tag should be a relative path to the image file within that directory, such as <code>resources/image_name.png</code></p>
 
+<h2>Sizing</h2>
+
+<p>You can control the size of an image using the <code>width</code> and <code>height</code> attributes within the <code class="language-html">&lt;img&gt;</code> tag. For reference, the width of text on a content page is around 800 pixels, so the value passed to <code>width</code> should be less than or equal to this value.</p>
+
+<p>When choosing dimensions, care should be taken not to make the image too high so it does not fit within the window of a typical browser window. As a guideline, heights of over 600 pixels may cause issues.</p>
+
+<h2>Positioning</h2>
+    
+<p>Images will be automatically centred horizontally relative to the margins of the test on the page.</p>
+
+<h2>Styling</h2>
+
+<p>Images are automatically styled by the Atomic Learning page so you should not set the <code>style</code> attribute of the <code class="language-html">&lt;img&gt;</code> tag.</p>
+
+<h2>Examples</h2>
+
+The following code:
+
+<pre><code class="language-html">&lt;img src="resources/my_image.png" width="750" height="500"&gt;</code></pre>
+
+produces the following image:
+
+<p><img src="resources/my_image.png" width="750" height="500"></p>
+
+<p>Gifs can also be included by using the same <code class="language-html">&lt;img&gt;</code> tag with a <code>src</code> attribute pointing to the gif file:</p>
+
+<pre><code class="language-html">&lt;img src="resources/animated_sine.gif" width="750" height="500"&gt;</code></pre>
+
+<p>which produces:</p>
+
+<p><img src="resources/animated_sine.gif" width="750" height="500"></p>
