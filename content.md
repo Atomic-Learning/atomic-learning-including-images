@@ -26,7 +26,7 @@ produces the following image:
 
 <img src="resources/my_image.png" width="750" height="500">
 
-![A sample image](resources/my_image.png =750x500)
+![A sample image](resources/my_image.png)
 
 Gifs can also be included by using the same <code class="language-html">&lt;img&gt;</code> tag with a <code>src</code> attribute pointing to the gif file:
 
