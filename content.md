@@ -28,7 +28,9 @@ produces the following image:
 
 ![My Image](resources/my_image.png)
 
-Gifs can also be included in the same way. For example, the following code:
+# GIFs
+
+GIFs can also be included in the same way. For example, the following code:
 
 ```markdown
 ![Animated Sine Wave](resources/animated_sine.gif)
