@@ -14,8 +14,6 @@ The path should point to an image which is found in the `resources` folder of yo
 
 By default, images will be centred and expanded to be as large as possible while still fitting within the margins of the page.
 
-```html
-
 # Examples
 
 The following code:
