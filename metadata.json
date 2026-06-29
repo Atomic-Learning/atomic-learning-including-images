@@ -12,8 +12,6 @@
     "prerequisites": [
         "atomic-learning-content-repositories",
         "atomic-learning-content-file",
-        "html-images-with-img",
-        "html-dimensions-width-height",
         "atomic-learning-media-types"
     ],
     "related": [
