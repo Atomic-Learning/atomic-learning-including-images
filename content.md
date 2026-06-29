@@ -24,10 +24,6 @@ The following code:
 ![My Image](resources/my_image.png)
 ```
 
-will produce
-
-<pre><code class="language-html">&lt;img src="resources/my_image.png" width="750" height="500"&gt;</code></pre>
-
 produces the following image:
 
 ![My Image](resources/my_image.png)
