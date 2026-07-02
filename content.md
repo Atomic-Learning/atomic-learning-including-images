@@ -14,8 +14,6 @@ The path should point to an image which is found in the `resources` folder of yo
 
 By default, images will be centred horizontally. Images will be displayed at their native size, but the platform imposes a maximum size. If they are larger than this size, they will be scaled down to the largest size that fits within the maximum size (a width of 750px and a height of 500px). If an image appears small on the page, use a higher resolution image file instead.
 
-```markdown
-
 # Examples
 
 The following code:
